@@ -31,6 +31,12 @@ This project was developed using Google Antigravity as the main development envi
 
 ---
 
+## AI Integration
+
+An OpenAI GPT model is used to generate a short summary of the lead message before storing the data in Google Sheets.
+
+---
+
 ## 🧠 Logic
 
 The system receives user input (name, email, message), processes the data, generates an AI summary, and sends it to Google Sheets using a webhook integration.
