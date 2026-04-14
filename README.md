@@ -5,6 +5,11 @@
 This project implements a simple lead capture system using FastAPI, Google Apps Script, and Google Sheets. The system collects user data (name, email, message), processes it, generates an AI summary, and stores the data in Google Sheets.
 
 ---
+## 🧰 Development Environment
+
+This project was developed using Google Antigravity as the main development environment.
+
+---
 
 ## ⚙️ Technologies Used
 
