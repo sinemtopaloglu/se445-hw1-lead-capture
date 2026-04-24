@@ -112,6 +112,19 @@ HTTP POST Request (`name`, `email`, `message`) → Google Apps Script Connector 
 
 ```json
 {
+
+✅ Results
+The data was successfully stored in Google Sheets
+No data loss occurred
+No formatting errors were observed
+Each field was written into the correct column
+---
+📷 Proof
+Swagger request and response screenshot
+Google Sheets showing the inserted row
+---
+🎯 Conclusion
+The system successfully receives user input and stores it in Google Sheets in real-time, fulfilling all HW2 requirements.
   "name": "Sinem Topaloğlu",
   "email": "sinemtopaloglu1907@gmail.com",
   "message": "HW2 final test"
