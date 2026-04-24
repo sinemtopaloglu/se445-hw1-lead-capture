@@ -89,3 +89,30 @@ The API was tested using Swagger UI and successfully verified.
 The system successfully captures user data, processes it, and stores it in Google Sheets through a complete workflow.
 
 ---
+---
+
+## HW2 – Data Input & Persistence
+
+📌 Objective
+
+This homework focuses on capturing raw lead data and storing it directly in Google Sheets without data loss.
+
+⚙️ Requirements Implementation
+
+- A POST endpoint `/lead` is created ✔️  
+- The system accepts a JSON payload with exactly three fields: `name`, `email`, and `message` ✔️  
+- Data is sent to Google Sheets using a webhook (Google Apps Script connector) ✔️  
+- Each request creates a new row in the sheet ✔️  
+
+🔄 HW2 Workflow
+
+HTTP POST Request (`name`, `email`, `message`) → Google Apps Script Connector → Google Sheets
+
+🧪 Test Case
+
+```json
+{
+  "name": "Sinem Topaloğlu",
+  "email": "sinemtopaloglu1907@gmail.com",
+  "message": "HW2 final test"
+}
