@@ -129,3 +129,11 @@ The system successfully receives user input and stores it in Google Sheets in re
   "email": "sinemtopaloglu1907@gmail.com",
   "message": "HW2 final test"
 }
+---
+## 📷 HW2 Screenshots
+
+### Swagger Test
+![Swagger](swagger_hw2.png)
+
+### Google Sheets Result
+![Sheet](sheet_hw2.png)
