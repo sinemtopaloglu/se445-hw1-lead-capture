@@ -116,6 +116,7 @@ HTTP POST Request (`name`, `email`, `message`) → Google Apps Script Connector 
   "email": "sinemtopaloglu1907@gmail.com",
   "message": "HW2 final test"
 }
+```
 ---
 ✅ Results
 The data was successfully stored in Google Sheets
