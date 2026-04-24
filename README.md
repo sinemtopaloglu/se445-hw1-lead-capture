@@ -107,33 +107,27 @@ This homework focuses on capturing raw lead data and storing it directly in Goog
 🔄 HW2 Workflow
 
 HTTP POST Request (`name`, `email`, `message`) → Google Apps Script Connector → Google Sheets
-
+---
 🧪 Test Case
 
 ```json
 {
-
-✅ Results
-The data was successfully stored in Google Sheets
-No data loss occurred
-No formatting errors were observed
-Each field was written into the correct column
----
-📷 Proof
-Swagger request and response screenshot
-Google Sheets showing the inserted row
----
-🎯 Conclusion
-The system successfully receives user input and stores it in Google Sheets in real-time, fulfilling all HW2 requirements.
   "name": "Sinem Topaloğlu",
   "email": "sinemtopaloglu1907@gmail.com",
   "message": "HW2 final test"
 }
 ---
-## 📷 HW2 Screenshots
+✅ Results
+The data was successfully stored in Google Sheets
+No data loss occurred
+No formatting errors were observed
+Each field was written into the correct column
+📷 Proof
+Swagger request and response screenshot
+Google Sheets showing the inserted row
+🎯 Conclusion
+The system successfully receives user input and stores it in Google Sheets in real-time, fulfilling all HW2 requirements.
 
-### Swagger Test
-![Swagger](swagger_hw2.png)
-
-### Google Sheets Result
-![Sheet](sheet_hw2.png)
+ 📷 HW2 Screenshots
+### Swagger Test ![Swagger](swagger_hw2.png)
+### Google Sheets Result ![Sheet](sheet_hw2.png)
