@@ -1,4 +1,4 @@
-# Lead Capture API – SE445 HW1
+# Lead Capture API – SE445 HW1 and HW2
 
 ## 📌 Overview
 
