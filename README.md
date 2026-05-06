@@ -277,6 +277,6 @@ Urgency: High
 ---
 
 🎯 Conclusion
-The system successfully validates incoming lead data, flags invalid records, classifies lead intent and urgency, and stores all results in Google Sheets through an intelligent processing workflow.
+-The system successfully validates incoming lead data, flags invalid records, classifies lead intent and urgency, and stores all results in Google Sheets through an intelligent processing workflow.
 
 
