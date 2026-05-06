@@ -253,12 +253,19 @@ Intent: Support
 Urgency: High
 ---
 
-📷 HW3 Screenshots
-Swagger valid request
-Swagger invalid request
-Google Sheets results
-Terminal output
-AI classification results
+## 📷 HW3 Screenshots
+
+### Swagger Valid Test
+
+![Swagger Valid Test](swagger_valid.png)
+
+### Swagger Invalid Test
+
+![Swagger Invalid Test](swagger_invalid.png)
+
+### Google Sheets Result
+
+![Google Sheets](sheet_hw3.png)
 
 ---
 
