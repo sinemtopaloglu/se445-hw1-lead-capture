@@ -180,30 +180,37 @@ Example:
   ✔ AI Classification
   
 The system analyzes the message content and generates:
-Intent
-Urgency
+
+- Intent
+- Urgency
+
 Supported Intent categories:
-Sales
-Support
-Partnership
-General
+
+- Sales
+- Support
+- Partnership
+- General
+
 Supported Urgency categories:
-High
-Medium
-Low
+
+- High
+- Medium
+- Low
 ---
 
 ✔ Data Persistence
 
 All processed data is stored in Google Sheets together with metadata.
+
 Stored fields:
-Name
-Email
-Message
-Validation Status
-Validation Notes
-Intent
-Urgency
+
+- Name
+- Email
+- Message
+- Validation Status
+- Validation Notes
+- Intent
+- Urgency
 ---
 
 🔄 HW3 Workflow
