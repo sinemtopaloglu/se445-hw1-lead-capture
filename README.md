@@ -30,6 +30,16 @@ This project was developed using Google Antigravity as the main development envi
 5. Data is stored in Google Sheets
 
 ---
+## 🔑 Environment Variable
+
+The OpenAI API key is stored securely using an environment variable.
+
+Example:
+
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+---
 
 ## AI Integration
 
