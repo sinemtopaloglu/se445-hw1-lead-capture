@@ -18,6 +18,7 @@ This project was developed using Google Antigravity as the main development envi
 * Google Apps Script
 * Google Sheets
 * JSON API
+* OpenAI API
 
 ---
 
