@@ -1,4 +1,4 @@
-# Lead Capture API – SE445 HW1 and HW2
+# Lead Capture API – SE445 HW1, HW2 and HW3
 
 ## 📌 Overview
 
@@ -134,3 +134,135 @@ The system successfully receives user input and stores it in Google Sheets in re
  📷 HW2 Screenshots
 ### Swagger Test ![Swagger](swagger_hw2.png)
 ### Google Sheets Result ![Sheet](sheet_hw2.png)
+---
+---
+
+# HW3 – Logic & Intelligent Processing
+
+## 📌 Objective
+
+This homework improves the lead pipeline by adding validation logic and AI-based lead analysis.
+
+The system now validates incoming data, flags invalid leads, classifies lead intent and urgency, and stores all metadata in Google Sheets.
+
+---
+
+## ⚙️ Requirements Implementation
+
+### ✔ Validation Logic
+
+The system checks:
+
+- Missing name
+- Missing email
+- Invalid email format
+- Missing message
+
+Validation results are stored in the sheet.
+
+---
+
+### ✔ Lead Flagging
+
+Invalid leads are NOT discarded.
+
+Instead, the system marks them using:
+
+- Validation Status
+- Validation Notes
+
+Example:
+
+- Validation Status: Invalid
+- Validation Notes: Missing email
+- 
+---
+  ✔ AI Classification
+  
+The system analyzes the message content and generates:
+Intent
+Urgency
+Supported Intent categories:
+Sales
+Support
+Partnership
+General
+Supported Urgency categories:
+High
+Medium
+Low
+---
+
+✔ Data Persistence
+
+All processed data is stored in Google Sheets together with metadata.
+Stored fields:
+Name
+Email
+Message
+Validation Status
+Validation Notes
+Intent
+Urgency
+---
+
+🔄 HW3 Workflow
+
+Input ({name, email, message})
+→ Validation
+→ AI Classification
+→ Google Sheets
+---
+
+🧪 Test Cases
+
+Valid Lead Example
+{
+  "name": "Sinem Topaloglu",
+  "email": "sinemtopaloglu1907@gmail.com",
+  "message": "I want to learn more about your pricing and services."
+}
+
+Result:
+Validation Status: Valid
+Intent: Sales
+Urgency: Low
+
+Invalid Lead Example
+{
+  "name": "Test User",
+  "email": "",
+  "message": "I need help with my account."
+}
+
+Result:
+Validation Status: Invalid
+Validation Notes: Missing email
+Intent: Not Classified
+Urgency: Not Classified
+
+Support Classification Example
+{
+  "name": "Ahmet Yilmaz",
+  "email": "ahmet@example.com",
+  "message": "I have a problem with my account and I need help urgently."
+}
+
+Result:
+Intent: Support
+Urgency: High
+---
+
+📷 HW3 Screenshots
+Swagger valid request
+Swagger invalid request
+Google Sheets results
+Terminal output
+AI classification results
+
+---
+
+🎯 Conclusion
+The system successfully validates incoming lead data, flags invalid records, classifies lead intent and urgency, and stores all results in Google Sheets through an intelligent processing workflow.
+
+
